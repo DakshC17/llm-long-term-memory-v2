@@ -1,0 +1,7 @@
+jupyter
+ipykernel
+langchain
+chromadb
+openai
+python-dotenv
+click
