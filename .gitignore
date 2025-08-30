@@ -34,3 +34,9 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+
+# ChromaDB - will be created automatically
+chroma_db/
+*.bin
+*.sqlite3
