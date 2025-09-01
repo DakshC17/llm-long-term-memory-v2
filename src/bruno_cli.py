@@ -46,7 +46,7 @@ def main():
                 break
         return
     
-    # Default: show help
+    #  show help
     parser.print_help()
 
 if __name__ == "__main__":
