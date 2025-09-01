@@ -1,5 +1,5 @@
 
-"""Bruno CLI - Minimal Memory-Enhanced AI Agent Interface"""
+"""Bruno CLI - Memory Enhanced AI Agent Interface"""
 
 import sys
 import argparse
