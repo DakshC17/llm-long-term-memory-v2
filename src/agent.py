@@ -1,5 +1,5 @@
 """
-Bruno Agent - Memory-Enhanced AI Agent
+Bruno Agent - Memory Enhanced AI Agent
 Imports functions from the notebook implementation
 """
 
