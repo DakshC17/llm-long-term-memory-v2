@@ -25,8 +25,9 @@ class MemoryEnhancedAgent:
         self.personality = personality
         self.model = "llama3.2:3b"
         
-        # Connect to persistent ChromaDB
-        client = chromadb.PersistentClient(path="./chroma_db")
+        # Connect to persistent ChromaDB (project root, not src folder)
+        db_path = Path(__file__).parent.parent / "chroma_db"
+        client = chromadb.PersistentClient(path=str(db_path))
         self.collection = client.get_or_create_collection(name="conversation_memory")
         
         # Agent personality definitions (from notebook)
