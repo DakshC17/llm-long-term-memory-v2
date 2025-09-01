@@ -5,12 +5,12 @@ import sys
 import argparse
 from pathlib import Path
 
-# Setup path and import agent
+
 sys.path.append(str(Path(__file__).parent.parent))
 from agent import MemoryEnhancedAgent
 
 def main():
-    # Simple argument parser
+    # parsers
     parser = argparse.ArgumentParser(description="Bruno - Memory AI Agent")
     parser.add_argument("-i", "--interactive", action="store_true", help="Interactive mode")
     parser.add_argument("-m", "--message", help="Single message")
@@ -18,7 +18,7 @@ def main():
     parser.add_argument("-p", "--personality", default="Brain_Powerhouse", help="Personality")
     args = parser.parse_args()
     
-    # Create Bruno
+    # creating bruno here
     bruno = MemoryEnhancedAgent(personality=args.personality)
     
     # Handle commands
