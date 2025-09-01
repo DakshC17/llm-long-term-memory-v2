@@ -23,8 +23,8 @@ def main():
     
     # Handle commands
     if args.stats:
-        print(f"💾 Memory: {bruno.collection.count()} conversations")
-        print(f"🎭 Personality: {bruno.personality}")
+        print(f" Memory: {bruno.collection.count()} conversations")
+        print(f" Personality: {bruno.personality}")
         return
     
     if args.message:
