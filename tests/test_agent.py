@@ -10,3 +10,8 @@ from pathlib import Path
 # below is the snippet 
 sys.path.append(str(Path(__file__).parent.parent / "src"))
 from agent import MemoryEnhancedAgent
+
+class TestAgent(unittest.TestCase):  # class for the test agent
+
+
+    
