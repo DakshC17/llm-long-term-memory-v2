@@ -12,6 +12,8 @@ sys.path.append(str(Path(__file__).parent.parent / "src"))
 from agent import MemoryEnhancedAgent
 
 class TestAgent(unittest.TestCase):  # class for the test agent
-
-
+    def setUp(self):
+        self.agent = MemoryEnhancedAgent(name="TestBruno")
+                ## definition for testing the bruno agent
+                
     
