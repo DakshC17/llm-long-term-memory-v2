@@ -2,7 +2,6 @@
 
 import unittest
 import sys
-import tempfile
-import shutil
+#remove couple of unnecessary packages 
 from pathlib import Path
 # WE IMPORTED THE REQUIRED PACKAGE FOR STARTING TO TEST
