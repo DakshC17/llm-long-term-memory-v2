@@ -15,5 +15,10 @@ class TestAgent(unittest.TestCase):  # class for the test agent
     def setUp(self):
         self.agent = MemoryEnhancedAgent(name="TestBruno")
                 ## definition for testing the bruno agent
-                
+    
+    def test_init(self):
+        #this is for creatung the test agent
+        self.assertEqual(self.agent.name, "TestBruno")
+        self.assertIsNotNone(self.agent.collection)
+        
     
