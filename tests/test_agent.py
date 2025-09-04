@@ -20,5 +20,11 @@ class TestAgent(unittest.TestCase):  # class for the test agent
         #this is for creatung the test agent
         self.assertEqual(self.agent.name, "TestBruno")
         self.assertIsNotNone(self.agent.collection)
+
+    ##now another definition willl of the save memory 
+    def test_save_memory(self):
+        ## it will test the save memories
+        result = self.agent.save_conversation("test message", "test response")
+        self.assertIsNotNone(result)
         
     
