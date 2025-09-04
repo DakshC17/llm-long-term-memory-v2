@@ -26,5 +26,18 @@ class TestAgent(unittest.TestCase):  # class for the test agent
         ## it will test the save memories
         result = self.agent.save_conversation("test message", "test response")
         self.assertIsNotNone(result)
-        
+
+
+    def test_search_memory(self):
+        #test for the memory searching
+        self.agent.save_conversation("Python coding", "Great topic!")
+
+    ##after the test lets see the results
+    # search function
+    # 
+        results = self.agent.search_memories("Python")
+        self.assertIsNotNone(results)
+
+if __name__ == '__main__':
+    unittest.main()       
     
