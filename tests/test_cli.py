@@ -18,3 +18,5 @@ class TestBrunoCLI(unittest.TestCase):
         )
 
         ##class will check the help function for cli tetsing
+        self.assertIn("Bruno - Memory AI Agent", result.stdout)
+        self.assertEqual(result.returncode, 0)
