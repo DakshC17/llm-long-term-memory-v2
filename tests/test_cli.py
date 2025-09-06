@@ -20,3 +20,17 @@ class TestBrunoCLI(unittest.TestCase):
         ##class will check the help function for cli tetsing
         self.assertIn("Bruno - Memory AI Agent", result.stdout)
         self.assertEqual(result.returncode, 0)
+
+
+##function will test the stats of runs 
+    def test_cli_stats(self):
+        """Test that CLI stats command runs"""
+        result = subprocess.run(
+            [sys.executable, str(Path("src/bruno_cli.py")), "-s"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+
+
+        
