@@ -33,4 +33,12 @@ class TestBrunoCLI(unittest.TestCase):
         )
 
 
-        
+
+        self.assertIn("Memory", result.stdout)
+        self.assertEqual(result.returncode, 0)
+
+if __name__ == "__main__":
+    unittest.main()
+
+
+
