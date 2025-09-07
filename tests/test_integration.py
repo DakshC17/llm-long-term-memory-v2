@@ -13,3 +13,12 @@ from agent import MemoryEnhancedAgent
 
 # here we will be adding the src path for the memory agent 
 # for the memory agent 
+
+
+class TestMemoryIntegration(unittest.TestCase):
+
+    #created the class for the testing integratively
+    def setUp(self):
+        self.agent = MemoryEnhancedAgent(name="TestBruno")
+
+        #setup of the memory enhance function is done
