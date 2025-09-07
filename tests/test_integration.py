@@ -44,3 +44,20 @@ class TestMemoryIntegration(unittest.TestCase):
         self.assertIn("Python", results['documents'][0][0])
 
         ##added the finding logic so that it finds the conversation if it finds we will be success full on our testing combined one with both.
+
+    def test_personality_consistency(self):
+        """Test that personality settings work"""
+        agent1 = MemoryEnhancedAgent(personality="Brain_Powerhouse")
+        agent2 = MemoryEnhancedAgent(personality="creative_problem_solver")
+
+
+        ## above i have added my test for personality and will test it 
+        
+        self.assertEqual(agent1.personality, "Brain_Powerhouse")
+        self.assertEqual(agent2.personality, "creative_problem_solver")
+
+if __name__ == "__main__":
+    unittest.main()
+
+
+    # lets see the execution if it works or not
