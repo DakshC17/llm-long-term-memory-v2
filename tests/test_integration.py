@@ -22,3 +22,14 @@ class TestMemoryIntegration(unittest.TestCase):
         self.agent = MemoryEnhancedAgent(name="TestBruno")
 
         #setup of the memory enhance function is done
+
+    def test_full_conversation_flow(self):
+        """Test complete conversation with memory"""
+        # First conversation
+        self.agent.save_conversation(
+            "I'm learning Python", 
+            "Great! Python is an excellent language to start with."
+        )
+
+    ## i have now added the conversation for testting we will test the function with this convo
+    # but ya we will add another conversation so that we do not rely on just one convo..
