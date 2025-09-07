@@ -33,3 +33,14 @@ class TestMemoryIntegration(unittest.TestCase):
 
     ## i have now added the conversation for testting we will test the function with this convo
     # but ya we will add another conversation so that we do not rely on just one convo..
+
+         # Second conversation that should remember the first
+        results = self.agent.search_memories("Python programming")
+
+
+
+         # Should find the previous conversation
+        self.assertTrue(len(results['documents'][0]) > 0)
+        self.assertIn("Python", results['documents'][0][0])
+
+        ##added the finding logic so that it finds the conversation if it finds we will be success full on our testing combined one with both.
