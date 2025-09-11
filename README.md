@@ -105,7 +105,7 @@ llm-long-term-memory-v2/
     └── chroma_db/               # Vector Database
 ```
 
-<!-- ## How It Works
+## How It Works
 
 ### 1. Memory Storage
 Every conversation is automatically saved to ChromaDB with:
@@ -120,7 +120,7 @@ When you ask Bruno something:
 3. **Context assembly** from relevant memories
 4. **Enhanced response** using retrieved context
 
-### 3. Personality System
+<!-- ### 3. Personality System
 Bruno adapts his responses based on personality:
 
 **Brain_Powerhouse (Default):**
@@ -243,4 +243,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Built by [DakshC17](https://github.com/DakshC17)**
 
-*Bruno remembers everything, so you don't have to!* -->   --> --> -->
+*Bruno remembers everything, so you don't have to!* -->   --> --> --> -->
