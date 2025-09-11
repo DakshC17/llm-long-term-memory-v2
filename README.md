@@ -5,7 +5,7 @@
 [![Ollama](https://img.shields.io/badge/llm-Ollama-orange.svg)](https://ollama.ai/)
 [![Tests](https://img.shields.io/badge/tests-7%20passing-brightgreen.svg)](./tests/)
 
--- A production-ready system that provides Large Language Models with **persistent conversational memory** using vector databases. Meet **Bruno** - your memory-enhanced AI agent that remembers every conversation and learns from your interactions.
+A production-ready system that provides Large Language Models with **persistent conversational memory** using vector databases. Meet **Bruno** - your memory-enhanced AI agent that remembers every conversation and learns from your interactions.
 
 ## Features
 
@@ -15,7 +15,7 @@
 - **Cross-Session Continuity**: Remembers conversations across restarts
 - **CLI Interface**: Production-ready command-line tool
 - **Fully Tested**: Comprehensive test suite with 7 tests
-- **Educational Journey**: Complete development notebooks included -->
+- **Educational Journey**: Complete development notebooks included 
 
 <!-- ## Quick Start
 
