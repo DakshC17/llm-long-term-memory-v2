@@ -58,7 +58,7 @@ You: Do you remember we talked about machine learning before?
 Bruno: Machine learning! I remember it like it was yesterday. We've had a great conversation about it in the past, haven't we?
 ```
 
-<!-- #### Single Message Mode
+#### Single Message Mode
 ```bash
 python src/bruno_cli.py -m "Explain neural networks"
 ```
@@ -73,7 +73,7 @@ Memory: 15 conversations
 Personality: Brain_Powerhouse
 ```
 
-#### Custom Personality
+<!-- #### Custom Personality
 ```bash
 python src/bruno_cli.py -i -p creative_problem_solver
 ```
@@ -243,4 +243,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Built by [DakshC17](https://github.com/DakshC17)**
 
-*Bruno remembers everything, so you don't have to!* -->   -->
+*Bruno remembers everything, so you don't have to!* -->   --> -->
