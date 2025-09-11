@@ -73,7 +73,7 @@ Memory: 15 conversations
 Personality: Brain_Powerhouse
 ```
 
-<!-- #### Custom Personality
+#### Custom Personality
 ```bash
 python src/bruno_cli.py -i -p creative_problem_solver
 ```
