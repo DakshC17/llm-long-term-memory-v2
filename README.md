@@ -229,7 +229,7 @@ Each phase is documented in Jupyter notebooks in the `notebooks/` directory.
 4. Run the test suite
 5. Submit a pull request
 
-<!-- ## License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
@@ -243,4 +243,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Built by [DakshC17](https://github.com/DakshC17)**
 
-*Bruno remembers everything, so you don't have to!* -->   --> --> --> --> --> --> -->
+*Bruno remembers everything, so you don't have to!* 
