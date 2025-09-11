@@ -17,7 +17,7 @@ A production-ready system that provides Large Language Models with **persistent 
 - **Fully Tested**: Comprehensive test suite with 7 tests
 - **Educational Journey**: Complete development notebooks included 
 
-<!-- ## Quick Start
+## Quick Start
 
 ### Installation
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 # Install Ollama (visit https://ollama.ai for instructions)
 ollama pull llama3.2:3b
 ```
-
+<!-- 
 ### Usage
 
 #### Interactive Chat Mode
@@ -243,4 +243,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Built by [DakshC17](https://github.com/DakshC17)**
 
-*Bruno remembers everything, so you don't have to!* --> 
+*Bruno remembers everything, so you don't have to!* -->  
