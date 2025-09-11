@@ -120,7 +120,7 @@ When you ask Bruno something:
 3. **Context assembly** from relevant memories
 4. **Enhanced response** using retrieved context
 
-<!-- ### 3. Personality System
+### 3. Personality System
 Bruno adapts his responses based on personality:
 
 **Brain_Powerhouse (Default):**
@@ -167,7 +167,7 @@ python tests/test_cli.py        # CLI commands
 python tests/test_integration.py # System integration
 ```
 
-**Test Coverage:**
+<!-- **Test Coverage:**
 - Agent initialization and memory operations
 - CLI help and statistics commands
 - Memory saving and retrieval functionality
@@ -243,4 +243,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Built by [DakshC17](https://github.com/DakshC17)**
 
-*Bruno remembers everything, so you don't have to!* -->   --> --> --> -->
+*Bruno remembers everything, so you don't have to!* -->   --> --> --> --> -->
