@@ -31,7 +31,10 @@ class TestMemoryIntegration(unittest.TestCase):
         self.agent.save_conversation(
             "I'm learning Python", 
             "Great! Python is an excellent language to start with."
+            "I am also interested in Deep learning"
         )
+
+
 
     ## i have now added the conversation for testting we will test the function with this convo
     # but ya we will add another conversation so that we do not rely on just one convo..
